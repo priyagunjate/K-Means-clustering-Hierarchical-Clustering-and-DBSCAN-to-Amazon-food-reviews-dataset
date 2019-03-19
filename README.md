@@ -36,11 +36,16 @@ Procedure to execute the above task is as follows:
 • Step1: Take 5k Reviews sample of amazon reviews data-set. And Ignore polarity column
 
 • Step2: Apply Feature generation techniques(Bow,tfidf,avg w2v,tfidfw2v)
+
 • Step3: Apply Hierarchical Clustering algorithm using each technique.
+
 • Step4: To find Best k using Elbow method
+
 • Step5: Read the cluster reviews
-1
+
 3.DBSCAN
+
+
 • Step1: Take sample of Reviews data of amazon reviews data-set. And Ignore polarity
 column
 
@@ -48,6 +53,7 @@ column
 
 • Step3: Apply Feature generation techniques(avg w2v,tfidfw2v) BOW & TFIDF is high
 dimesional thus DBSCAn does not work properly
+
 
 • Step4: Apply DBSCAN algorithm using avg w2v & tfidfw2v technique.
 
